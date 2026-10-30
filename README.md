@@ -125,4 +125,4 @@ Novo sistema `RideHistory` persiste as últimas 200 corridas analisadas e calcul
 
 ## Licença
 
-Projeto pessoal / educacional. O uso de Accessibility Service para ler dados de apps terceiros pode violar os Termos de Serviço da Uber. Use sob sua própria responsabilidade.
+MIT LICENSE
