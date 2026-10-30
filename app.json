@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Uber Helper",
+    "slug": "uber-helper",
+    "scheme": "uberhelper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": ["expo-router"],
+    "android": {
+      "package": "com.uberhelper.app",
+      "permissions": [
+        "SYSTEM_ALERT_WINDOW",
+        "BIND_ACCESSIBILITY_SERVICE",
+        "FOREGROUND_SERVICE"
+      ]
+    }
+  }
+}

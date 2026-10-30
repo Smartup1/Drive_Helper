@@ -1,0 +1,36 @@
+# dependências
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# build nativo (caso rode expo prebuild)
+android/
+ios/
+
+# logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# variáveis de ambiente
+.env
+.env.local
+
+# arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# editores
+.vscode/
+.idea/
+
+# cache do metro bundler
+.metro-health-check*
+
+# arquivos temporários do TypeScript
+*.tsbuildinfo
