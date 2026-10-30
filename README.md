@@ -1,6 +1,6 @@
 # Uber Helper (Drive_Helper)
 
-Overlay flutuante que analisa ofertas de corrida da Uber Driver em tempo real e sugere ACEITAR ou NEGAR, com base em regras configuráveis (R$/km, R$/min, distância máxima, tempo máximo, destinos proibidos/favoritos, pedágio etc).
+Overlay flutuante que analisa ofertas de corrida da Uber Driver em tempo real e sugere ACEITAR ou NEGAR, com base em regras configuráveis (R$/km, R$/min, distância máxima, tempo máximo, destinos p[...]
 
 ## Status do Projeto
 
@@ -55,7 +55,7 @@ Dois recursos **não existem no Expo Go / Managed Workflow**:
 - **Accessibility Service** (ler conteúdo da tela de outro app)
 - **`SYSTEM_ALERT_WINDOW`** (desenhar por cima de outro app)
 
-Ambos exigem módulos nativos Android (Kotlin/Java) registrados no `AndroidManifest.xml`. Este projeto já está preparado com interfaces TypeScript (`OverlayService`, `AccessibilityService`) esperando esses módulos nativos — assim que forem criados, o resto do app funciona sem mudanças.
+Ambos exigem módulos nativos Android (Kotlin/Java) registrados no `AndroidManifest.xml`. Este projeto já está preparado com interfaces TypeScript (`OverlayService`, `AccessibilityService`) esperand[...]
 
 ## Rodando o Projeto (Interface Apenas)
 
@@ -122,6 +122,30 @@ Novo sistema `RideHistory` persiste as últimas 200 corridas analisadas e calcul
 8. Adicionar modo noturno automático
 9. Suporte a múltiplas plataformas (99, iFood Entregas)
 10. Analytics avançados: heatmap de horários lucrativos, tendências semanais
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+Copyright (c) 2025 Smartup1
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
+ deste software e dos arquivos de documentação associados (o "Software"), para
+ tratar o Software sem restrição, incluindo, sem limitação, os direitos de usar,
+ copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias
+ do Software, e permitir que as pessoas a quem o Software é fornecido o façam,
+ sujeito às seguintes condições:
+
+O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas
+ as cópias ou partes substantivas do Software.
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
+ IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, AS GARANTIAS DE COMERCIALIZAÇÃO,
+ ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO OS AUTORES OU
+ TITULARES DOS DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER RECLAMAÇÃO,
+ DANOS OU OUTRA RESPONSABILIDADE, SEJA EM AÇÃO DE CONTRATO, DELITO OU DE OUTRA
+ FORMA, DECORRENTE DE, OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS
+ NEGOCIAÇÕES NO SOFTWARE.
 
 ## Licença
 
